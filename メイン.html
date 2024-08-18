@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="共通.css" rel="stylesheet">
+    <script src="共通関数.js"></script>
+ 
+ 
+    <title>html自動生成ツール</title>
+</head>
+<body>
+<div id="for_hidden_change1">
+<label id="1">◎（※画面の左上は◎に合わせてください）</label>
+<p>
+<div><label class="" id="2"> 　ｈ ｔ ｍ ｌ 自 動 生 成 ツ ー ル </label></div></div><p>
+<div class="container"><div id="edit_area_header" class="header_area" disabled></div></div>
+<div id="edit_area" class="main_area" disabled></div>
+<div id="edit_area_footer" class="footer_area" disabled></div>
+<p>
+<div id="for_hidden_change2"><!-- ボタン部 -->
+    <button id="button_label" class="margin_left for_label" onclick="add_label()">ラベル</button>
+    <button id="button_textbox" class="for_textbox" onclick="add_textbox()">テキストボックス</button>
+    <button id="button_radio" class="for_radio" onclick="add_radio()">ラジオボタン　</button>
+    <button id="button_command" class="for_command" onclick="add_command()">コマンドボタン</button>
+    <button id="button_table" class="for_table" onclick="add_table()">明細</button>
+    <div id="test" class="left_margin_zahyo">　</div>
+    <div id="test1" class="under_line left_margin_zahyo"></div>
+</div>
+<!-- <input type="checkbox" id="add_button_check" class="margin_left" onclick="add_button_hide()"><label>【明細】追加ボタンを隠す</label> -->
+<p>
+<div><button class="margin_left html_button" onclick="create_html()" id="create_html_button">ｈｔｍｌ生成</button>
+<!-- <button class="margin_left" onclick="window.location.href='test.html'">確認</button> -->
+</div>
+<div id="for_hidden_change3">
+<button onclick="copy_click()" id="copy_button" class="white_color" hidden>クリップボードへコピー</button>
+<button onclick="delete_click()" id="delete_button" class="white_red" hidden>✘</button>
+<button onclick="preview()" id="preview_button" class="white_color" hidden>プレビュー</button>
+
+<!-- カスタムエリア -->
+<div class="for_custom1" id="for_custom1"><input type="checkbox" id="auto_style_check" class="margin_left" onclick="auto_style_change()"><label>ラジオボタンのサイズをグループごとに統一</label></div>
+<div class="for_custom2" id="for_custom2"><input type="checkbox" id="auto_hide_background_check" class="margin_left" onclick="hide_background()"><label>要素の背景色を透明化</label></div>
+<div class="for_custom3" id="for_custom3"><input type="checkbox" id="auto_delete_border_check" class="margin_left" onclick="delete_border()"><label>枠線を非表示</label></div>
+<div class="for_custom4" id="for_custom4"><input type="checkbox" id="auto_width_check" class="margin_left" onclick="auto_width()"><label>Auto width</label></div>
+</div>
+
+</body>

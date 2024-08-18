@@ -1,0 +1,234 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.body_color{
+    background-color: antiquewhite;
+}
+
+/* メインのテキストエリア */
+.main_area{
+    width: 978px;/*16:9*/
+    height: 350px;
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 5px;
+    resize:none;
+    margin-left: 10px;
+    background-color: rgb(228, 216, 201);
+
+}/* ヘッダーのテキストエリア */
+.header_area{
+    width: 978px;/*16:9*/
+    height: 100px;
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 5px;
+    resize:none;
+    background-color: rgb(228, 216, 201);
+    margin-left: 10px;
+
+}/* フッターのテキストエリア */
+.footer_area{
+    width: 978px;/*16:9*/
+    height: 100px;
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 5px;
+    resize:none;
+    background-color: rgb(228, 216, 201);
+    margin-left: 10px;
+}
+
+/* ボタンと作成エリアのカラー ******************************/
+.for_label{
+    background-color:rgb(232, 211, 188);
+}
+    /* 動的移動中 */
+    .label_move{
+        background-color:rgb(211, 194, 176);
+    }
+
+.for_textbox{
+    background-color:rgb(200, 232, 188);
+}
+    /* 動的移動中 */
+    .textbox_move{
+        background-color:rgb(164, 189, 154);
+    }
+
+.for_radio{
+    background-color:rgb(188, 220, 232);
+}
+    /* 動的移動中 */
+    .radio_move{
+        background-color:rgb(158, 186, 196);
+    }
+
+.for_table{
+    background-color:rgb(232, 188, 219);
+}
+    /* 動的移動中 */
+    .table_move{
+        background-color:rgb(189, 154, 179);
+    }
+
+    .for_table_data{
+        background-color:rgb(234, 216, 228);
+    }
+
+.for_command{
+    background-color:rgb(225, 232, 188);
+}
+    /* 動的移動中 */
+    .command_move{
+        background-color:rgb(201, 207, 168);
+    }
+
+.for_move_button{
+    background-color:rgb(225, 232, 188);
+}
+    /* 動的移動中 */
+    .move_button_move{
+        background-color:rgb(220, 220, 220);
+    }
+
+/*******************************/
+
+
+.margin_left{
+    margin-left: 10px;
+}
+
+/* 下線 */
+.under_line{
+    text-decoration: underline;
+    /* text-decoration-color: gray; */
+}
+
+/* ラベル用テキストエリア　※共通 */
+.label_area{
+    width: 298px;
+    height: 24px;
+    font-size: 22px;/*デフォルトサイズ*/
+}
+
+.table_area{
+    width: 150px;
+    height: 50px;
+    font-size: 22px;/*デフォルトサイズ*/
+}
+
+.command_area{
+    width: 75px;
+    height: 24px;
+    font-size: 22px;/*デフォルトサイズ*/
+}
+
+.no_select{
+    user-select: none;
+    position: absolute; /* 絶対位置指定 */
+}
+
+.left_margin_zahyo{
+    margin-left: 930px;
+}
+
+.container {
+    display: flex;
+}
+
+.tyui_button{
+    border:none;
+    background-color: antiquewhite;
+}
+
+.border_1{
+    border : 3px dotted green;
+}
+
+.border_11{
+    border : 3px solid green;
+}
+
+.border_2{
+    border : 3px dotted red;
+}
+
+.border_22{
+    border : 3px solid red;
+}
+
+.border_3{
+    border : 3px dotted blue;
+}
+
+.border_33{
+    border : 3px solid blue;
+}
+
+.border_4{
+    border : 3px dotted yellow;
+}
+
+.border_44{
+    border : 3px solid yellow;
+}
+
+.white_color{
+    color: white;
+}
+
+.white_red{
+    color: red;
+}
+
+.html_button{
+    font-size: large;
+    left: 40%;
+}
+
+.border_none{ /*border除去スタイル*/
+    border:none !important;
+}
+
+.back_none{ /*背景透明*/
+    background-color:transparent !important;
+}
+
+.for_custom1{ /*ラジオボタンのサイズを自動で統一する*/
+    position:absolute;
+    left:1040px;
+    top:100px;
+}
+
+.for_custom2{ /*要素背景透過*/
+    position:absolute;
+    left:1040px;
+    top:150px;
+}
+
+.for_custom3{ /*ラベルのborder除去*/
+    position:absolute;
+    left:1040px;
+    top:200px;
+}
+
+.for_custom4{ /*余分な横幅を除去*/
+    position:absolute;
+    left:1040px;
+    top:250px;
+}
+
+.for_kakunin_div{
+    width: 978px;/*16:9*/
+    height: 350px;
+    /* padding: 10px; */
+    border:1px solid gray;
+    border-radius: 5px;
+    resize:none;
+    margin-left: 10px;
+    background-color: rgb(228, 216, 201);
+}
+
